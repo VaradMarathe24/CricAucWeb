@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
+      ;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover {
+      font-size: 1.4rem;
+      color: rgb(153, 153, 226);
+    }
+
+
+    /* Style the current/active link */
+    .nav a.active {
+      background-color: #04AA6D;
+    }
+
+    /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+    @media screen and (max-width: 500px) {
+      .nav a {
+        float: none;
+        display: flex;
+        width: 100%;
+        text-align: left;
+        /* If you want the text to be left-aligned on small screens */
+      }
+    }
+
+    .left img {
+      width: 60%;
+      margin: 70px 0px;
+    }
+    .h2{
+      color: white;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display:flex;
+    }
+
+    body {
+      background-color: rgb(8, 6, 44);
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .fa {
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 0px 20px;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-x {
+      background: #55ACEE;
+      color: white;
+    }
+
+    p {
+      text-align: justify;
+      color: rgb(207, 232, 23);
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    footer p{
+      text-align: center;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: rgb(33, 161, 230);
+    }
+    .Purple {
+            color: rgb(188, 158, 215);
+            text-align: center;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+  </style>
+  <title>Home</title>
+</head>
+
+<body>
+  <header>
+    <marquee>Welcome to Cricket India League</marquee>
+    <br>
+    <br>
+    <br>
+    <br>
+    <nav>
+        <div class="left">
+          <img src="Logo.png" alt="">
+        </div>
+        <div class="right">
+          <ul>
+            <li><a class="active" href="Homepage.html">Home</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="Learn.html">Learn</a></li>
+            <li><a href="Auction.html">Auction</a></li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+  <br>
+  <br>
+  <br>
+  <main>
+<h2 align="center"><i>Cricket India League</i></h2>
+<br>
+<br>
+  <h3 align='center'>Idea behind this game</h3>
+  <hr>
+  <section class="History before 1947">
+    <p>Cricket in India is not just a game. It is the emotion of almost 140 billion people living in the country. It is
+    considered as a sport that unites the whole country. Cricket in India was introduced by the Britishers who ruled
+    India from 1800 till 1947.The Parsees cricket team toured England in 1890s.After 1910s, cricket spread like a
+    forestfire in the Indian subcontinent.Bombay Triangulars began with three teams comprising of Europeans, Parsees and
+    the Hindus. Bombay Gymkhana was established in Bombay(now Mumbai) by the Parsees.The tournament was further extended
+    as Bombay pentangular with teams Hindus,parsees,Muslims,Europeans and the rest comprising of Buddhists,Jews and the
+    Christians.
+    <br>
+    Eventually, amidst a backdrop of rioting and political unrest across India, the newly formed Board of Control for
+    Cricket in India announced in 1946 that the Pentangular tournament was being abandoned, and being replaced by a
+    zonal competition. The Ranji Trophy, in which regional teams from all over India compete, became the pre-eminent
+    Indian cricket competition.<p>
+    </section>
+  <section class="After 1947"><p>India won its first ICC Cricket World Cup in 1983 under the captaincy of Kapi Dev.
+    This World cup victory enhanced the growth of Cricket in India.India won its first T20 World Cup in 2007 under MS
+    Dhoni, a young captain from Jharkhand, after the debacle of 2007 ODI World Cup.
+    The advent of IPL boosted T20 Cricket in India and India gained prominence on the World level for successfully
+    hosting a tournament consisting of Indians as well as foreign players as participants of the competition.Mumbai
+    Indians and Chennai Super Kings are the most sucessful teams in IPL winning 5 IPL titles each.The incumbent IPL
+    champions are Kolkata Knight Riders led by Shreyas Iyer.The 8-team competition was expanded in 2010 with two new
+    teams added namely Pune Warriors India and Kochi Tuskers Kerala. These new teams were led by former India captain
+    Sourav Ganguly and former Srilanka captain Mahela Jaywerdene. The Indian Premier League has successfully completed
+    16 seasons.
+    <br>
+    In 2015, two teams Chennai Super Kings led by MS Dhoni and Rajasthan Royals led by Ajinkya Rahane were banned for
+    next 2 IPL seasons for the allegation of match fixing. Two new teams Rising Pune Supergiants and Gujarat Lions were
+    incorporated for IPL 2016. These twomteams were led by MS Dhoni(Thala) and Suresh Raina(Chinna Thala). Rising Pune
+    Supergiants were the runner-ups of the competition in 2017 season in which Mumbai Indians won the tournament by one
+    run defeating them. This marked the end of these two teams in IPL.<br></p>
+  </section>
+    <section class="Purpose"><p>I have developed this website or game for fun purpose.Indians are passionate about cricket and especially IPL. So i
+      am providing them a platform to implement their business mind and cricketing acumen to build a team of their
+      favourite players.Thank you for visiting this website.
+    </p>
+  </section>
+<div class="Purple">
+  <section>
+    <footer>
+      <p>Created by: Varad Milind Marathe<br>
+        For any queries contact on the given email-id <br>
+        <a href="mailto:varadmarathe2004@gmail.com"><span class="Email">Email id:- varadmarathe2004@gmail.com</span></a></p>
+      <h2>Follow me on Social Media</h2>
+  <a href="https://www.facebook.com" class="fa fa-facebook">fb</a>
+  <a href="https://x.com" class="fa fa-x">X</a>
+    </footer>
+  </section>
+</div>
+ 
+  </main>
+</body>
+
+</html>

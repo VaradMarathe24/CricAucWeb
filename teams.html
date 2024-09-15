@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <title>clicked dropdown</title>
+    <style type="text/css">
+        button {
+            background: #009900;
+            width: 200px;
+            height: 60px;
+            color: white;
+            border: 1px solid #fff;
+            font-size: 20px;
+            border-radius: 5px;
+
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        ul li a {
+            display: block;
+            background: #c99;
+            width: 200px;
+            height: 50px;
+            text-decoration: none;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+        }
+
+        ul li a {
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            background: #009900;
+        }
+
+        .open {
+            display: none;
+        }
+
+        .teams{
+            font-size: 40px;
+            font-weight: bold;
+            color: #009900;
+            Text-align: center;
+        }
+        p {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+    <script type="text/javascript">
+        function open_menu() {
+            let clicked = document.getElementById('drop-menu');
+            if (clicked.style.display == 'block') {
+                clicked.style.display = 'none';
+            }
+            else {
+                clicked.style.display = 'block';
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="team"></div>
+    <p>Choose your team</p>
+    <div id="dropdown">
+        <button onclick="open_menu()">Teams</button>
+        <div class="open" id="drop-menu">
+            <ul>
+                <li><a href="">Delhi Dynamix</a></li>
+                <li><a href="">Rajasthan Rifles</a></li>
+                <li><a href="">Punjab Panthers</a></li>
+                <li><a href="">Lucknow Lions</a></li>
+                <li><a href="">Bangalore Blasters</a></li>
+                <li><a href="">Hyderabad Hawks</a></li>
+                <li><a href="">Chennai Commanders</a></li>
+                <li><a href="">Kerala Kings</a></li>
+                <li><a href="">Pune Peshwas</a></li>
+                <li><a href="">Mumbai Mavericks</a></li>
+                <li><a href="">Ahmedabad Aces</a></li>
+                <li><a href="">Vidharbha Volts</a></li>
+                <li><a href="">Kolkata Knights</a></li>
+                <li><a href="">NE Express</a></li>
+                <li><a href="">Bihar Braves</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
